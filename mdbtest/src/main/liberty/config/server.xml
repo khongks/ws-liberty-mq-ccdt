@@ -22,15 +22,6 @@
         <properties.wmqJms ccdtURL="file://${shared.resource.dir}/ccdt.json" password="{xor}Lz4sLChvLTs=" queueManager="*QMGRP" userName="app"/>
     </jmsConnectionFactory>
 
-<!--
-    <jmsActivationSpec authDataRef="mqAuth" id="mdbtest/SampleListenerMDB">
-        <properties.wmqJms 
-        ccdtURL="file://${shared.resource.dir}/ccdt.json" 
-        queueManager="*QMGRP"
-        destinationRef="jms/queue1"/>
-    </jmsActivationSpec>
--->
-
     <jmsActivationSpec authDataRef="mqAuth" id="mdbtest/SampleListenerMDBQM1">
         <properties.wmqJms 
         ccdtURL="file://${shared.resource.dir}/ccdtQM1.json"         
